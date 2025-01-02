@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="view-port" content="width=device-width,initial-scale=1">
+    <title>QHindustry</title>
+    <link href="style.css" rel="stylesheet">
+    </head>
+<body>
+    
+<h1 id="title">QH industry</h1>
+<p id="description">QH industry Survey Form</p>
+<div class="net">
+<form action="mailto:n689964@gmail.com" method="post"
+id="survey-form">
+<fieldset>
+    <label id="name-label" for="name">Emri<input id="name" type="text"  placeholder="Sheno emrin tuaj" required></label>
+    <label id="email-label" for="email">Emaili<input id="email" type="email"  placeholder="Sheno emailin tuaj" required></label>
+    <label id="number-email" for="number">Mosha<input id="number" type="number" value="mosha" min="12" max="85" placeholder="Mosha"></label>
+</fieldset>
+<fieldset>
+    <label>
+A mendoni se do te jete efektiv
+<select id="dropdown">
+    <option>Zgjedh njeren</option>
+<option>Besoj qe po</option>
+<option>Do te kete efekt</option>
+<option>Ndoshta</option>
+<option>Nuk kam mendim</option>
+</select>
+</label>
+</fieldset>
+<fieldset><legend>A mendoni te vazhdojme perseri keshtu?</legend>
+    <label for="patjeter"><input id="patjeter"   type="radio" class="radc" value="Patjeter" name="mendimet" checked> Patjeter</label>
+    
+    <label for="ndoshta"><input id="ndoshta"  type="radio" class="radc"  value="Ndoshta" name="mendimet"> Ndoshta</label>
+    
+    <label for="joisigurt"><input id="joisigurt"  type="radio" class="radc"  value="joisigurt" name="mendimet"> Jo I sigurt</label>
+</fieldset>
+<fieldset>
+    <label>
+Ne çfare mënyre na keni parë
+<select id="dropdown2">
+    <option>Zgjedh njeren</option>
+<option>Youtube</option>
+<option>Instagram</option>
+<option>Facebook</option>
+<option>Tjera</option>
+</select>
+</label>
+</fieldset>
+<fieldset><legend>Me çfare projekte deshironi te jete projekti tjeter?</legend>
+    <label for="1"><input id="1" type="checkbox" class="hk" value="front">Front-end Projects</label>
+    <label for="2"><input id="2" type="checkbox" class="hk" value="back">Back-end Projects</label>
+    <label for="3"><input id="3" type="checkbox" class="hk" value="challenges">Challenges</label>
+    <label for="4"><input id="4" type="checkbox" class="hk" value="videos">Videos</label>
+    <label for="5"><input id="5" type="checkbox" class="hk" value="etj">Etj...</label>
+</fieldset>
+<fieldset>
+<legend>Ndonjë koment apo sugjerim?</legend>
+    <textarea rows="5" cols="50" placeholder="Shenoni komentin tuaj ketu...">
+</textarea>
+<button id="submit" class="button">Submit</button>
+</fieldset>
+</div>
+</form>
+</body>
+</html>

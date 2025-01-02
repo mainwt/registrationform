@@ -1,0 +1,44 @@
+h1,p{text-align: center;} 
+body{
+color: white;
+width:100%;
+font-family: tahoma;
+font-size: 19px;
+background-image:linear-gradient(115deg, rgba(47,79,79,0.9), rgba(0,128,128,10)),url(ikmag.jpeg);
+background-size: 100% 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+form{background-color: #1e1e1e;
+color: white;
+padding:20px;
+margin: 50px auto;
+width: 50%;
+border-radius: 10px;
+box-shadow: 0px 10px 50px rgba(0,0,0,0.5);}
+input,select,textarea{display: block;
+width: 95%;
+padding:10px;
+font-size: inherit;
+margin: 10px 0;
+border-radius: 5px;
+border:1px solid #ccc;}
+
+button{padding: 18px 215px;
+margin:3% 14% ;
+border: none;
+border-radius: 5px;
+cursor:pointer;
+background-color: #090923;
+color: white;
+font-size: inherit;}
+
+fieldset{border: none;
+border-bottom: 3px solid #3b3b4f
+}
+fieldset:first-child{border: none;}
+fieldset:nth-child(3){border-bottom: none;}
+.button:hover{
+    background-color:#002ead;
+    transition: 0.7s}
+    
